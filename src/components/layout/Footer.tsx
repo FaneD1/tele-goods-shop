@@ -1,6 +1,5 @@
-
 import { Link } from 'react-router-dom';
-import { Github, Telegram } from 'lucide-react';
+import { Github, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -74,7 +73,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-telegram transition-colors"
               >
-                <Telegram className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </a>
               <a
                 href="https://github.com/maze-store"
